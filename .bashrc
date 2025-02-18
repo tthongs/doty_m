@@ -160,6 +160,10 @@ alias grep='grep --color=auto'
 alias ff="fastfetch"
 alias wifi="nmtui"
 alias hibernate="systemctl hibernate"
+alias off="poweroff"
+alias iwd="sudo systemctl start iwd"
+alias hdd="sudo mount /dev/sda1 /mnt/ext_drive"
+
 
 
 PS1='[\u@\h \W]\$ '
